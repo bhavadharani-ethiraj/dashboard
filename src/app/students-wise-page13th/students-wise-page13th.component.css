@@ -1,0 +1,28 @@
+.bg {
+    background:#F1F1F1 }
+    .bgg{
+        background: #DFDFDF;
+    }
+    .accordion {
+    cursor: pointer;
+}
+.accordion:after {
+    content: "\002B";
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.active-accordian:after {
+    content: "\2212";
+}
+.panel {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.brd{
+    font-weight: 80px;
+    font-size: 20px;
+}

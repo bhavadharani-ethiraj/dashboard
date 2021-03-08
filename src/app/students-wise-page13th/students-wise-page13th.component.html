@@ -1,0 +1,29 @@
+<div class="container-fluid">
+    <div class="bg p-3 d-flex flex-wrap justify-content-between mb-2  accordion" style="font: normal normal medium 32px/38px Roboto;color: #121212;
+opacity: 1;"(click)="toggleAccordian($event)">
+    Overall Analysis</div>
+    <div  class="panel">
+        <app-analysis></app-analysis>
+    </div>
+        <div class="bg p-3 d-flex flex-wrap justify-content-between mb-2  accordion" style="font: normal normal medium 32px/38px Roboto;color: #121212;
+    opacity: 1;"(click)="toggleAccordian($event)">
+        student Analysis on Assignment</div>
+        <div class="panel">
+            <app-analysis-tabulation></app-analysis-tabulation>
+        </div>
+        
+    <div class="bg p-3 d-flex flex-wrap justify-content-between mb-2  accordion" style="font: normal normal medium 32px/38px Roboto;color: #121212;
+    opacity: 1;"(click)="toggleAccordian($event)">
+        Learning Gap Analysis</div>
+        <div class="panel ml-5 mr-5">
+<!-- <div class="container"> -->
+    <app-learning-gap></app-learning-gap>
+        </div>
+    <!-- </div> -->
+    <div class="bg p-3 d-flex flex-wrap justify-content-between mb-2  accordion" style="font: normal normal medium 32px/38px Roboto;color: #121212;
+    opacity: 1;"(click)="toggleAccordian($event)">
+        Inferences</div>
+        <div class="panel">
+
+            <app-inferences></app-inferences>
+        </div>

@@ -1,0 +1,20 @@
+<h6>
+    Commonly Misspelled Words<hr>
+</h6>
+<table class="table table-borderless ">
+    <thead>
+        <tr >
+            <th class="float-center">Mistaken Words</th>
+            <th class="float-center">Correct Spelling</th>
+            <th class="float-center">No.of Students written</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let dataserve of dataserves "> 
+            <td class="float-center">{{dataserve.incorrect}}</td>
+            <td class="float-center">{{dataserve.correct}}</td>
+            <td  class="float-center">{{dataserve.count}}</td>
+        </tr>
+       
+    </tbody>
+</table>

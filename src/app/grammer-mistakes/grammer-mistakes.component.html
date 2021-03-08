@@ -1,0 +1,19 @@
+<h6>
+    Grammar Mistakes<hr>
+</h6>
+<table class="table table-borderless ">
+    <thead>
+        <tr >
+            <th class="float-center">Message </th>
+            <th class="float-center">Replacement</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let dataserve of dataserves ">
+            <td class="float-center">{{dataserve.message}}</td>
+            <td class="float-center">{{dataserve.replace}}</td>
+
+        </tr>
+    </tbody>
+</table>
